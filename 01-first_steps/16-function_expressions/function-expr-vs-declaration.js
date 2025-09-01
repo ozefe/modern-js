@@ -9,13 +9,13 @@ sum = function (a, b) {
     return a + b;
 };
 
-sayHi2("John"); // Hello, John
-function sayHi2(name) {
+sayHi("John"); // Hello, John
+function sayHi(name) {
     alert(`Hello, ${name}`);
 }
 
-// sayHi3("John"); // error!
-let sayHi3 = function (name) {
+// sayHi2("John"); // error!
+let sayHi2 = function (name) {
     alert(`Hello, ${name}`);
 };
 
