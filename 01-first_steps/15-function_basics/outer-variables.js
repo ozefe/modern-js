@@ -6,7 +6,6 @@ function showMessage() {
     let message = "Hello, " + userName;
     alert(message);
 }
-
 showMessage(); // Hello, John
 
 function showMessage() {
@@ -17,13 +16,10 @@ function showMessage() {
 }
 
 alert(userName); // John before the function call
-
 showMessage();
-
 alert(userName); // Bob, the value was modified by the function
 
 userName = "John";
-
 function showMessage() {
     let userName = "Bob"; // declare a local variable
 
