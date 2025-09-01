@@ -17,5 +17,6 @@ let user2 = "John";
 let age2 = 25;
 let message4 = "Hello";
 
-// The var keyword is almost the same as let. It also declares a variable but in a slightly different, "old-school" way.
+// The var keyword is almost the same as let. It also declares a variable but
+// in a slightly different, "old-school" way.
 var message5 = "Hello";
