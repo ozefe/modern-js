@@ -1,5 +1,6 @@
 // let result = condition ? value1 : value2;
-accessAllowed = age > 18 ? true : false;
+let age = prompt("How old are you?", "");
+let accessAllowed = age > 18 ? true : false;
 alert(accessAllowed);
 
 // the same
