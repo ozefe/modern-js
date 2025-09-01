@@ -2,7 +2,7 @@
 // do {
 //     // loop body
 // } while (condition);
-i = 0;
+let i = 0;
 do {
     alert(i);
     i++;

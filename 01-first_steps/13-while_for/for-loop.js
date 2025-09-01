@@ -10,7 +10,7 @@ for (let i = 0; i < 3; i++) {
 // for (let i = 0; i < 3; i++) alert(i)
 
 // run begin
-i = 0;
+let i = 0;
 // if condition → run body and run step
 if (i < 3) {
     alert(i);
