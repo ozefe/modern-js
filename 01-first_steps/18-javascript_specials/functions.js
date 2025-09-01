@@ -7,7 +7,7 @@ function sum(a, b) {
 }
 
 // Function Expression: the function in the context of an expression
-sum = function (a, b) {
+let sum = function (a, b) {
     let result = a + b;
 
     return result;
