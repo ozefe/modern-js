@@ -5,7 +5,7 @@ alert(false && true); // false
 alert(true && false); // false
 alert(false && false); // false
 
-hour = 12;
+let hour = 12;
 let minute = 30;
 
 if (hour == 12 && minute == 30) {
