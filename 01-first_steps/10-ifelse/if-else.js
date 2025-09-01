@@ -37,5 +37,4 @@ if (age > 18) {
 } else {
     accessAllowed = false;
 }
-
 alert(accessAllowed);
