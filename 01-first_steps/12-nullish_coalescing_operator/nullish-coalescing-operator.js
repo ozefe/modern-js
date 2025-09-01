@@ -4,7 +4,6 @@
 // let result = a !== null && a !== undefined ? a : b;
 
 let user;
-
 alert(user ?? "Anonymous"); // Anonymous (user is undefined)
 
 user = "John";
