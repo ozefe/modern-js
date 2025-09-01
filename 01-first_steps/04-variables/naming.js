@@ -3,7 +3,6 @@
  *     1. The name must contain only letters, digits, or the symbols $ and _.
  *     2. The first character must not be a digit.
  */
-
 // Examples of valid names:
 let userName;
 let test123;

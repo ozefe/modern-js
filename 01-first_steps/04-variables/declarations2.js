@@ -1,13 +1,10 @@
 let message;
 
 message = "Hello!";
-
 message = "World!"; // value changed
-
 alert(message);
 
 let hello = "Hello world!";
-
 let message2;
 
 // copy 'Hello world' from hello into message2

@@ -1,11 +1,8 @@
 let message;
-
 message = "Hello"; // store the string 'Hello' in the variable named message
-
 alert(message); // shows the variable content
 
 let message2 = "Hello!"; // define the variable and assign the value
-
 alert(message2); // Hello!
 
 let user = "John",
