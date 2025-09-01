@@ -36,7 +36,6 @@ if (age < 18) {
 // welcome(); // Error: welcome is not defined
 
 let welcome;
-
 if (age < 18) {
     welcome = function () {
         alert("Hello!");
@@ -46,7 +45,6 @@ if (age < 18) {
         alert("Greetings!");
     };
 }
-
 welcome(); // ok now
 
 welcome =
@@ -57,5 +55,4 @@ welcome =
         : function () {
               alert("Greetings!");
           };
-
 welcome(); // ok now
