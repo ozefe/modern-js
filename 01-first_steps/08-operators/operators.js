@@ -6,7 +6,7 @@ alert(x); // -1, unary negation was applied
 
 let x2 = 1,
     y = 3;
-alert(y - x); // 2, binary minus subtracts values
+alert(y - x2); // 2, binary minus subtracts values
 
 // Remainder %
 alert(5 % 2); // 1, the remainder of 5 divided by 2
