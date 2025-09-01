@@ -1,6 +1,6 @@
 // Assignment
-let x4 = 2 * 2 + 1;
-alert(x4); // 5
+let x = 2 * 2 + 1;
+alert(x); // 5
 
 let a = 1;
 let b = 2;

@@ -10,15 +10,15 @@ alert(counter2); // 1
 let counter3 = 1;
 
 // the prefix form ++counter3 increments counter and returns the new value, 2
-let a3 = ++counter3;
-alert(a3); // 2
+let a = ++counter3;
+alert(a); // 2
 
 let counter4 = 1;
 
 // the postfix form counter4++ also increments counter but returns the old
 // value (prior to increment)
-let a4 = counter4++;
-alert(a4); // 1
+let a2 = counter4++;
+alert(a2); // 1
 
 let counter5 = 0;
 counter5++;

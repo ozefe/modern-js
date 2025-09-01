@@ -4,11 +4,11 @@
 // the unary plus converts it into a number. It actually does the same thing
 // as Number(...), but is shorter.
 // No effect on numbers
-let x3 = 1;
-alert(+x3); // 1
+let x = 1;
+alert(+x); // 1
 
-let y2 = -2;
-alert(+y2); // -2
+let y = -2;
+alert(+y); // -2
 
 // Converts non-numbers
 alert(+true); // 1
