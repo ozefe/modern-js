@@ -1,7 +1,7 @@
 // String
 // A string in JavaScript must be surrounded by quotes.
 let str = "Hello";
-let str2 = "Single quotes are ok too";
+let str2 = 'Single quotes are ok too';
 let phrase = `can embed another ${str}`;
 
 let name = "John";
