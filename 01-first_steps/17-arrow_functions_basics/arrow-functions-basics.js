@@ -1,5 +1,4 @@
 // let func = (arg1, arg2, ..., argN) => expression;
-
 /* This arrow function is a shorter form of:
 
 let sum = function(a, b) {
