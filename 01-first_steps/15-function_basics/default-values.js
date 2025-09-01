@@ -1,4 +1,9 @@
 // Default values
+function showMessage(from, text) {
+    from = "*" + from + "*"; // make "from" look nicer
+
+    alert(from + ": " + text);
+}
 showMessage("Ann"); // *Ann*: undefined
 
 function showMessage(from, text = "no text given") {
