@@ -2,7 +2,6 @@
 // do {
 //     // loop body
 // } while (condition);
-
 i = 0;
 do {
     alert(i);
