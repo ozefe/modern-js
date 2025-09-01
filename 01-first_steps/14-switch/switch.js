@@ -9,7 +9,6 @@
 //     ...
 //     [break]
 // }
-
 let a = 2 + 2;
 
 // outputs only "Exactly"
@@ -41,7 +40,6 @@ switch (a) {
 
 a = "1";
 let b = 0;
-
 switch (+a) {
     case b + 1:
         alert("this runs, because +a is 1, exactly equals b+1");
@@ -53,7 +51,6 @@ switch (+a) {
 
 // Grouping of "case"
 a = 3;
-
 switch (a) {
     case 4:
         alert("Right!");
