@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- add mocha css, to show results -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css"
+        />
+        <!-- add mocha framework code -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+        <script>
+            mocha.setup("bdd"); // minimal setup
+        </script>
+        <!-- add chai -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+        <script>
+            // chai has a lot of stuff, let's make assert global
+            let assert = chai.assert;
+        </script>
+
+        <title>05: Automated testing with Mocha</title>
+    </head>
+    <body>
+        <!-- scripts with the `pow` implementation, choose one to test it -->
+        <!-- <script src="pow-empty.js"></script> -->
+        <!-- <script src="pow-cheat.js"></script> -->
+        <!-- <script src="pow-improved.js"></script> -->
+        <script src="pow-extended.js"></script>
+
+        <!-- the script with tests (describe, it...) -->
+        <script src="test-simple.js"></script>
+        <script src="test-improved.js"></script>
+        <script src="test-generated.js"></script>
+        <script src="test-nested.js"></script>
+        <script src="test-extended.js"></script>
+
+        <!-- before, after, beforeEach, afterEach testing -->
+        <!-- <script src="test-before-after.js"></script> -->
+
+        <!-- the element with id="mocha" will contain test results -->
+        <div id="mocha"></div>
+
+        <!-- run tests! -->
+        <script>
+            mocha.run();
+        </script>
+    </body>
+</html>
